@@ -7,7 +7,7 @@ shopt -s extglob
 # @ Since: 25 March 2020 
 
 #Constants
-PINCODE="[0-9]{6}$"
+PINCODE="^[1-9][0-9]{5}$"
 
 read -p "Enter six digit pincode ::" pincode
 
